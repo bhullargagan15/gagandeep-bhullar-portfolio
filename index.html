@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Gagandeep Singh Bhullar">
+  <meta name="description" content="Portfolio website of Gagandeep Singh Bhullar who is front-end web developer from Toronto, Canada">
+  <meta name="keywords" content="web developer, developer, front-end, Gagandeep, Bhullar">
+  <title>Gagandeep Bhullar's Portfolio Website</title>
+  <link rel="stylesheet" href="css/master.css">
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+</head>
+<body>
+  <!--Main content body-->
+  <div id="container" class="container">
+    <header>
+      <nav>
+        <span class="logo">gb</span>
+        <a href="#" onclick="openSideNav()"><i class="fas fa-bars"></i></a>
+      </nav>
+      <div class="heroArea">
+        <div class="content-wrap">
+          <div class="hero-text">
+            <h1 style="margin-bottom: 0; font-family:'Roboto', sans-serif;">Gagandeep Singh Bhullar</h1>
+            Front-End Web Developer
+          </div>
+          <div class="hero-image">
+            <img src="images/profile.jpeg" alt="Gagandeep Bhullar's profile picture" class="profile">
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--About Me section-->
+      <section class="section-a">
+        <div class="content-wrap">
+          <h2>About Me</h2>
+          Hi, I am Gagandeep. I'm am a front-end web developer based in Toronto. I recently graduated with an IT diploma and now I am learning web development.<br>Skills I have:
+          <ul class="skills-list">
+            <li class="skill">HTML</li>
+            <li class="skill">CSS</li>
+            <li class="skill">JavaScript</li>
+            <li class="skill">GitHub</li>
+            <li class="skill">PHP (basic knowledge)</li>
+            <li class="skill">mySQL (basic knowledge)</li>
+          </ul>
+          <a class="simple-link aboutme-contact" href="#section-c">Contact Me</a>
+        </div>
+      </section>
+      <!--Projects section-->
+      <section class="section-b">
+        <div class="content-wrap">
+          <h2>Projects</h2>
+          These are some of my works, click on any of them more details.
+          <div class="cards">
+            <div class="card">
+              <div class="card-title">Title Here</div>
+              <div class="card-content">Content goes here</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Contact Me section-->
+      <section class="section-c">
+        <div class="content-wrap">
+          <h2>Contact Me</h2>
+          If you have any questions/concerns , need some help with your project or you want to hire me, please feel free to contact me using any of the given platforms.<br>
+          <ul class="contact-link-list">
+            <li><a href="https://github.com/bhullargagan15"><i class="fab fa-github-square contact-link"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/gagandeep-bhullar-50326b107/"><i class="fab fa-linkedin contact-link"></i></a></li>
+            <li><a href="mailto:bhullargagan15@gmail.com"><i class="fas fa-envelope contact-link"></i></a></li>
+            <li><i class="fas fa-phone-square contact-link"></i></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="content-wrap">
+        <ul class="socialMediaLinks">
+          <li><a href="https://github.com/bhullargagan15"><i class="fab fa-github-square social-icon"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/gagandeep-bhullar-50326b107/"><i class="fab fa-linkedin social-icon"></i></a></li>
+          <li><a href="mailto:bhullargagan15@gmail.com"><i class="fas fa-envelope social-icon"></i></a></li>
+        </ul>
+      </div>
+      <div class="disclaimer">Made with <i class="fas fa-heart"></i> by &copy;Gagandeep Singh Bhullar<br>
+        2018</div>
+    </footer>
+  </div>
+
+  <!--Side navigation bar-->
+  <div id="side-nav" class="side-nav">
+  <i class="fas fa-window-close close-btn" onclick="closeSideNav()"></i>
+    <a href="#top">Home</a>
+    <a href="#section-a">About</a>
+    <a href="#section-b">Projects</a>
+    <a href="#section-c">Contact</a>
+  </div>
+  <script src="animations.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</body>
+</html>
